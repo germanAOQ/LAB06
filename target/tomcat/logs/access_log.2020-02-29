@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [29/Feb/2020:07:32:46 -0500] "GET /faces/guess.xhtml HTTP/1.1" 200 4534 http-bio-8080-exec-1 338
+0:0:0:0:0:0:0:1 - - [29/Feb/2020:07:32:46 -0500] "GET /faces/javax.faces.resource/theme.css?ln=primefaces-aristo HTTP/1.1" 200 24248 http-bio-8080-exec-3 19
+0:0:0:0:0:0:0:1 - - [29/Feb/2020:07:32:46 -0500] "GET /faces/javax.faces.resource/jquery/jquery.js;jsessionid=4A34202610AACBAB3245DE11B460A25E?ln=primefaces&v=6.0 HTTP/1.1" 200 107785 http-bio-8080-exec-4 3
+0:0:0:0:0:0:0:1 - - [29/Feb/2020:07:32:46 -0500] "GET /faces/javax.faces.resource/components.css;jsessionid=4A34202610AACBAB3245DE11B460A25E?ln=primefaces&v=6.0 HTTP/1.1" 200 75326 http-bio-8080-exec-2 32
+0:0:0:0:0:0:0:1 - - [29/Feb/2020:07:32:46 -0500] "GET /faces/javax.faces.resource/core.js;jsessionid=4A34202610AACBAB3245DE11B460A25E?ln=primefaces&v=6.0 HTTP/1.1" 200 30554 http-bio-8080-exec-6 2
+0:0:0:0:0:0:0:1 - - [29/Feb/2020:07:32:46 -0500] "GET /faces/javax.faces.resource/components.js;jsessionid=4A34202610AACBAB3245DE11B460A25E?ln=primefaces&v=6.0 HTTP/1.1" 200 357791 http-bio-8080-exec-5 6
+0:0:0:0:0:0:0:1 - - [29/Feb/2020:07:32:46 -0500] "GET /faces/javax.faces.resource/jquery/jquery-plugins.js;jsessionid=4A34202610AACBAB3245DE11B460A25E?ln=primefaces&v=6.0 HTTP/1.1" 200 245797 http-bio-8080-exec-8 5
+0:0:0:0:0:0:0:1 - - [29/Feb/2020:07:32:46 -0500] "GET /faces/wallpaper.jpg HTTP/1.1" 200 37612 http-bio-8080-exec-9 14
+0:0:0:0:0:0:0:1 - - [29/Feb/2020:07:32:46 -0500] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-10 2
+0:0:0:0:0:0:0:1 - - [29/Feb/2020:07:33:04 -0500] "POST /faces/guess.xhtml;jsessionid=4A34202610AACBAB3245DE11B460A25E HTTP/1.1" 200 3177 http-bio-8080-exec-10 23
