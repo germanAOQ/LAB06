@@ -10,7 +10,8 @@ xmlns:p="http://primefaces.org/ui">
 		background-repeat:repeat;
 	}
 	 .titulo { color: purple; font:oblique bold 300% sans-serif;  }
-	 .texto { color: brown; font:oblique bold 150% cursive; }
+	 .texto1 { color: brown; font:oblique bold 150% cursive; }
+	 .texto2 { color: red; font:oblique bold 150% cursive; }
 	 .tabla {color:white; background:orange;}
 </style>
 </h:head>
@@ -18,10 +19,11 @@ xmlns:p="http://primefaces.org/ui">
 	<h2 class="titulo" align="center">!Gana un premio si adivinas el numero del 1 al 100!</h2>
 	<h:form id="guess_form">
 		<p:outputLabel value="#{ParteIV.numero}"  style="display:none"/>
-		<p class="texto" align="center">NUMERO DE INTENTOS: <p:outputLabel value="#{ParteIV.intentos}"/></p>
-		<p class="texto" align="center" color= "green">PREMIO: <p:outputLabel value="#{ParteIV.premio}" /></p>
+		<p class="texto1" align="center">BIENVENIDO</p>
+		<p class="texto2" align="center">NUMERO DE INTENTOS: <p:outputLabel value="#{ParteIV.intentos}"/></p>
+		<p class="texto2" align="center" color= "green">PREMIO: <p:outputLabel value="#{ParteIV.premio}" /></p>
 		
-		<p class="texto" align="center"><p:outputLabel value="#{ParteIV.estado}"/></p>
+		<p class="texto1" align="center"><p:outputLabel value="#{ParteIV.estado}"/></p>
 		<p align="center"><p:inputText style="background:#{'white'}"  binding="#{input}"/></p>
 		<p align="center"><p:commandButton class="texto" value="Probar" update="guess_form" actionListener="#{ParteIV.guess(input.value)}" style="background:#{'blue'}"/><p:commandButton class="texto" value="Reiniciar" update="guess_form" actionListener="#{ParteIV.restart()}" style="background:#{'yellow'}"/></p>
 		<div align="center"><p:dataTable var="numIntentos" value="#{ParteIV.listIntentos}" style="width:150px;">

@@ -1,1 +1,1 @@
-<?php require_once("guess.xhtml") ?>
+<?php require_once("guess.xhtml"); ?>
