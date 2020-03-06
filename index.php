@@ -1,1 +1,0 @@
-<?php include_once("src/main/webapp/home.html"); ?>
